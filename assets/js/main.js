@@ -3,7 +3,7 @@ const hoursContainer = document.querySelector('#hours');
 const minutesContainer = document.querySelector('#minutes');
 const secondsContainer = document.querySelector('#seconds');
 const nextYearContainer = document.querySelector('#year');
-const spinnerLoading = document.querySelector('#loading');
+const spinnerLoading = document.querySelector('.loading');
 const countdownContainer = document.querySelector('#countdown');
 
 const nextYear = new Date().getFullYear() + 1;

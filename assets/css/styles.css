@@ -72,6 +72,24 @@ h1 {
   margin: 0 0 5px;
 }
 
+.loading {
+  border: 10px solid gray;
+  border-top-color: blue;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  animation: loading .7s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 45px;
