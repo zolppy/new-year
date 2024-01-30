@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-image: url('../img/bg.jpg');
+  background-image: radial-gradient(red, green);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
