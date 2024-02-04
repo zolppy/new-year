@@ -53,6 +53,14 @@ h1 {
   margin: 0 0 5px;
 }
 
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
 .loading {
   border: 10px solid gray;
   border-top-color: blue;
@@ -91,5 +99,13 @@ h1 {
 
   .time .time-name {
     font-size: 10px;
+  }
+
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 1.3rem;
+    font-weight: 600;
   }
 }
