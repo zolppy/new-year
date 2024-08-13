@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contagem regressiva para o Ano Novo</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <script defer src="assets/js/main.js"></script>
+    <title>Contagem regressiva para o ano novo</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script defer src="assets/script.js"></script>
   </head>
   <body>
-    <div id="year" class="year"></div>
-    <h1>Contagem regressiva para o ano novo</h1>
-    <div id="countdown" class="countdown">
-      <div class="time">
-        <span id="days">00</span>
-        <span class="time-name">dias</span>
-      </div>
-      <div class="time">
-        <span id="hours">00</span>
-        <span class="time-name">horas</span>
-      </div>
-      <div class="time">
-        <span id="minutes">00</span>
-        <span class="time-name">minutos</span>
-      </div>
-      <div class="time">
-        <span id="seconds">00</span>
-        <span class="time-name">segundos</span>
-      </div>
-    </div>
-    <div class="loading"></div>
+    <main>
+      <section>
+        <hgroup>
+          <h1>Contagem regressiva</h1>
+          <h2>----</h2>
+        </hgroup>
+        <div class="date-wrapper">
+          <div class="day time">
+            <span class="time-value">--</span>
+            <span class="time-label">Dias</span>
+          </div>
+          <div class="hour time">
+            <span class="time-value">--</span>
+            <span class="time-label">Horas</span>
+          </div>
+          <div class="minute time">
+            <span class="time-value">--</span>
+            <span class="time-label">Minutos</span>
+          </div>
+          <div class="second time">
+            <span class="time-value">--</span>
+            <span class="time-label">Segundos</span>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
